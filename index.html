@@ -1,25 +1,39 @@
 <html>
 	<head>
 		<style type="text/css">
-			#m_box {
-				background-color : #09C;
-				width: 150px;
-				height: 40opx;
+			div.yellow_box span{
+				background-color: yellow;
 			}
-			
-			.box{
-				width: 100px;
-				height: 50px;
-				border: 1px solid green;
+			div#c_box span{
+				text-align: center;
+				padding: 10px;
+				color: green;
 			}
-			#box1 {
-				font-style: italic;
+			div span.blue_span{
+				background-color: #09C;
+			}
+			div span#c_span {
+				text-align: center;
+				padding: 10px;
+				color: orange;
 			}
 		</style>
 	</head>
 	<body>
-		<div class="box1">box 클래스</div>
-		<div class="box2">box 클래스</div>
-		<div id="m_box" class="box">m_box 아이디</div>
+		<div class="yellow_box">
+			<span>span 태그입니다.</span>
+		</div>
+		<div id="c_box">
+			<span>span 태그입니다.</span>
+		</div>
+		<div>
+			<span class="blue_span">span 태그입니다.</span>
+		</div>
+		<div>
+			<span id="c_span">span 태그입니다.</span>
+		</div>
+		<div>
+			<span>span 태그5입니다.</span>
+		</div>
 	</body>
 </html>
