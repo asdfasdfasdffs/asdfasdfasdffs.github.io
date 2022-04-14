@@ -1,39 +1,30 @@
 <html>
 	<head>
 		<style type="text/css">
-			div.yellow_box span{
-				background-color: yellow;
+			.box {
+				background-color: #09c;
 			}
-			div#c_box span{
-				text-align: center;
-				padding: 10px;
-				color: green;
+			.hober-box:hover {
+				background-color: orange;
 			}
-			div span.blue_span{
-				background-color: #09C;
+			.focus-input: focus {
+				background: red;
 			}
-			div span#c_span {
-				text-align: center;
-				padding: 10px;
-				color: orange;
+			.container > div {
+				width: 100px;
+				height: 100px;
 			}
 		</style>
 	</head>
 	<body>
-		<div class="yellow_box">
-			<span>span 태그1입니다.</span>
+		<div class="box hover-box">
+			"마우스를 올려보세요."
 		</div>
-		<div id="c_box">
-			<span>span 태그2입니다.</span>
-		</div>
-		<div>
-			<span class="blue_span">span 태그3입니다.</span>
-		</div>
-		<div>
-			<span id="c_span">span 태그4입니다.</span>
-		</div>
-		<div>
-			<span>span 태그5입니다.</span>
+		<input class="focus-input" type="text" value="클릭해보세요">
+		<div class="container">
+			<div></div>
+			<div></div>
+			<div></div>
 		</div>
 	</body>
 </html>
