@@ -1,6 +1,6 @@
 #box1 {
-	width: 150px;
-	height: 80px;
+	width: 150mm;
+	height: 80mm;
 	background-color: red;
 	border: 2px dashed #09c;
 }
