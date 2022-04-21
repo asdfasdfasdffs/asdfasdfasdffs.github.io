@@ -1,0 +1,12 @@
+#box1 {
+	width: 150px;
+	height: 80px;
+	background-color: #d2f4ff;
+	border: 2px dashed #09c;
+}
+#box2 {
+	width: 60px;
+	height: 200px;
+	background-color: #fde6ff;
+	border: 4px dotted #09c;
+}
